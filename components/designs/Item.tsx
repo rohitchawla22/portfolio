@@ -19,7 +19,7 @@ export default function Item({ data, index }) {
                 {item.subtitles.map((item, index) => (
                   <span className={styles["contcont"]} key={item}>
                     🞄&nbsp;
-                    <li className={styles["li-inside"]}>{item}</li>
+                    <li className={styles["square"]}>{item}</li>
                   </span>
                 ))}
               </ul>

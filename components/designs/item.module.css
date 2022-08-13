@@ -162,7 +162,9 @@
     line-height: 1.86;
     font-weight: 700;
   }
-  
+  li.square {
+    list-style-type: square;
+  }
   .contcont {
     display: flex;
     flex-direction: row;
