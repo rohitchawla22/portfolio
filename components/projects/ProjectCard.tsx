@@ -32,6 +32,7 @@ function ProjectCard({ project }) {
                   width={16}
                   height={16}
                   alt="Link Icon"
+                  priority
                 />
               </a>
             )}
@@ -42,6 +43,7 @@ function ProjectCard({ project }) {
                   width={16}
                   height={16}
                   alt="Github Icon"
+                  priority
                 />
               </a>
             )}

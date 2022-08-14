@@ -25,7 +25,7 @@ function Footer() {
                         >
                           {item.icon && (
                             <span className="pr-2 -mb-1">
-                              <Image src={item.icon} width={20} height={20} />
+                              <Image src={item.icon} width={20} height={20} priority/>
                             </span>
                           )}
                           {item.name}
@@ -112,7 +112,7 @@ function Footer() {
           <div className="mt-2 text-xs ">
             Made by{" "}
             <a
-              href="mailto:contact@braydentw.io"
+              href="mailto:chawla.rohit2208@gmail.com"
               className="text-fun-gray-light font-medium"
             >
               Rohit Chawla
