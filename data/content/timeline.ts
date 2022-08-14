@@ -8,7 +8,6 @@ const steps = [
         title: "Learnings:",
         subtitles: [
           "Won Google Developer award for developing Indoor Blind Navigation Mobile App.",
-          "Twitter Followers: 20,000+",
         ],
       },
     ],

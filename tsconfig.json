@@ -29,6 +29,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".contentlayer/generated"
-, "components/designs"  ],
+, "components/timeline"  ],
   "exclude": ["node_modules"]
 }

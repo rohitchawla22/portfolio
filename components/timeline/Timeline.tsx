@@ -1,9 +1,8 @@
 import React from "react";
-import { designs } from "@/data/content/designs";
-import steps from "@/data/content/designs";
+import steps from "@/data/content/timeline";
 import Item from "./Item";
 
-function Designs() {
+function Timeline() {
   // return (
     // <div className="grid grid-cols-1 gap-8 md:grid-cols-2 items-start">
     //   {designs.map((item, index) => {
@@ -49,4 +48,4 @@ function Designs() {
   );
 }
 
-export default Designs;
+export default Timeline;

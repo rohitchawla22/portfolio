@@ -1,9 +1,18 @@
-import { kebabCase, kebabArray } from "@/utils/utils";
+import { kebabCase } from "@/utils/utils";
 import { Project } from "types";
 
 const projects: Project[] = [
   {
     id: 0,
+    title: "AWS Cost Reduction",
+    desc: "Took an initiative to identify on how we can reduce our AWS bill and things to keep in mind when deploying and managing existing logical resource on AWS.",
+    img: "/static/projects/aws_cost.png",
+    link: "https://git.rockfin.com/RocketMortgage/rocket-api/pull/3833",
+    github: "https://git.rockfin.com/RocketMortgage/rocket-api/pull/3833",
+    tags: ["AWS", "Terraform"],
+  },
+  {
+    id: 1,
     title: "K6-Automation",
     desc: "Run Performance test for Rocket Mortgage Application and preserving results in Dynatrace.",
     img: "/static/projects/loadTest.png",
@@ -12,7 +21,7 @@ const projects: Project[] = [
     tags: ["K6", "Typescript", "Automation", "Mountebank", "AWS", "Dynatrace"],
   },
   {
-    id: 1,
+    id: 2,
     title: "Rocket Rewards POC",
     desc: "Developed a POC during hack-week using MFE and Module Federation",
     img: "/static/projects/rewards.png",
@@ -20,7 +29,7 @@ const projects: Project[] = [
     tags: ["Module Federation", "Typescript", "React", "MFE", "AWS"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Reusable Web Component - POC",
     desc: "Developed a POC using StencilJs and integrated it into Truebill and Rocket Mortgage Applications",
     img: "/static/projects/stenciljs.png",
@@ -28,7 +37,7 @@ const projects: Project[] = [
     tags: ["Typescript", "StencilJs", "AWS"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Dynatrace for RMA",
     desc: "Setting up Dynatrace for Applications living in Rocket Mortgage Application space.",
     img: "/static/projects/dynatrace.png",
@@ -36,21 +45,13 @@ const projects: Project[] = [
     tags: ["Dynatrace", "Terraform", "Infrastructure", "Metrics"],
   },
   {
-    id: 4,
+    id: 5,
     title: "RMA AMEX Integration",
     desc: "Tech Lead for the AMEX deliverable for the project overall for RMA FE Applications.",
     img: "/static/projects/amex.png",
     link: "",
     github: "",
     tags: ["Angular", "Typescript", "React"],
-  },
-  {
-    id: 5,
-    title: "Circle 2.1 upgrade",
-    desc: "Drove the initiative of upgrading RMA pipelines to circle v2.1 and also transferring knowledge about orbs.",
-    img: "",
-    link: "https://app.circleci.foc.zone/pipelines/github/RocketMortgage?filter=mine",
-    tags: ["Circle CI", "Infrastructure", "yaml"],
   },
   {
     id: 6,
@@ -76,7 +77,7 @@ const projects: Project[] = [
     img: "/static/projects/mobile.png",
     link: "https://git.rockfin.com/mobile/api-common",
     github: "https://git.rockfin.com/mobile/api-common",
-    tags: ["PHP", "HateOS"],
+    tags: ["PHP", "HateOS", "Docker"],
   },
   {
     id: 7,
@@ -85,7 +86,15 @@ const projects: Project[] = [
     img: "/static/projects/rick.png",
     link: "https://git.rockfin.com/AutomateCR/Rick",
     github: "https://git.rockfin.com/AutomateCR/Rick",
-    tags: ["Elixir", "Cherwell", "TFS"],
+    tags: ["Elixir", "Cherwell", "TFS", "Docker"],
+  },
+  {
+    id: 8,
+    title: "Circle 2.1 upgrade",
+    desc: "Drove the initiative of upgrading RMA pipelines to circle v2.1 and also transferring knowledge about orbs.",
+    img: "",
+    link: "https://app.circleci.foc.zone/pipelines/github/RocketMortgage?filter=mine",
+    tags: ["Circle CI", "Infrastructure", "yaml"],
   },
 ];
 
